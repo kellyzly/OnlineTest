@@ -1,19 +1,5 @@
-find way to revert a linked list
+find way to remove the duplited elements in the list
+[1,1,2,3,4]
 
-
-
-
- class ListNode{
-	ListNode next;
-   }
-
- public ListNode reverseList(ListNode head) {
-        ListNode prev = null;
-        ListNode current = head;
-        while (current != null) {
-            ListNode next = current;
-            current = prev;
-            prev = current;
-            current = next;
-        }
-        return prev;
+->
+[1,2,3,4]
